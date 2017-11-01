@@ -8,8 +8,7 @@ Answer:
 for the data sturcture that supply the require operations(add/ remove) I choose to use priority queue.
 The priority queue implemented by sorted link list and allows to add in O(n) and remove in O(1)
 
-In order to support the require that asked to support all potential "algorithms" I created the constructor of PersonCollection class 
-with parameter with type Comparator<Person>.
+In order to support the require that asked to support all potential "algorithms" I created the constructor of PersonCollection class with parameter type Comparator<Person>.
 why>
 beacuse we need to support all potential "algorithms" we create the class with reference to comparator that can be changed
 and it wont affected on the class. so we save reference to the comparater in data member of the class and add person by it.
