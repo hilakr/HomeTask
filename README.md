@@ -16,6 +16,7 @@ I choose to implement PersonCollection class with the following strategy:
 The second data structure I thought is ConcurrentHashMap and sorted list.
 
 Add- add Person to ConcurrentHashMap in O(1) and add Person by value to sorted list in O(n) - O(n)
+
 Remove- O(1)
 
 Tha advantage of this data structure is supporting full concurrency and prevents a programmer from handling synchronization, but the disadvantage is that we still need to manage the sorted list.
