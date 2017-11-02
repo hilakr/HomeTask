@@ -2,13 +2,13 @@ package com.hila;
 import java.util.Date;
 
 public class MyPerson implements Person {
-	//This class I created in order to test PersonCollection methods
+	//This class I created in order to test PersonCollection  methods
 	private int id;
 	private String firstName;
 	private String lastName;
 	private Date dateOfBirth;
 	private int height;
-	
+
 	public MyPerson(int id, String name,Date date) {
 		this.dateOfBirth = date;
 		this.firstName = name;
@@ -35,5 +35,5 @@ public class MyPerson implements Person {
 		return height;
 	}
 
-	
+
 }

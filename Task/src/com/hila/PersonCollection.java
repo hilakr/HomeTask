@@ -78,7 +78,8 @@ public class PersonCollection extends Observable {
 		System.out.println("People Collection:");
 		ListIterator<Person> linkedListIterator = this.persons.listIterator();
 		while (linkedListIterator.hasNext()) {
-			System.out.println(linkedListIterator.next());		
+			Person person = linkedListIterator.next();
+			System.out.println(person.getFirstName() +"," +person.getId());		
 		}
 	}
 	
