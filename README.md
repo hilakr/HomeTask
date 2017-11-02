@@ -14,6 +14,7 @@ I choose to implement PersonCollection class with the following strategy:
 5. For tests, I created NotificationUpdates class that implements Observer and update on each action.
 
 The second data structure I thought is ConcurrentHashMap and sorted list.
+
 Add- add Person to ConcurrentHashMap in O(1) and add Person by value to sorted list in O(n) - O(n)
 Remove- O(1)
 
